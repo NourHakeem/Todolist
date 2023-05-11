@@ -50,6 +50,7 @@ header {
     background-color: rgb(236, 53, 114);
     color: white;
     border: 1px inset rgb(236, 53, 114);
+    cursor: pointer;
 }
 
 main {
