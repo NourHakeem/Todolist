@@ -1,0 +1,109 @@
+* {
+    margin: 20 auto;
+}
+
+header {
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(236, 53, 114);
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    margin: 7rem 15rem;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: self-start;
+    /* border: 1px solid gray; */
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tasklist {
+    background-color: white;
+}
+
+.container h3 {
+    padding-left: 10px;
+}
+
+#new-task-form {
+    float: center;
+    padding: 0.8rem 1rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+#new-task-input {
+    width: 80%;
+    padding: .5rem;
+}
+
+#new-task-button {
+    width: 20%;
+    background-color: rgb(236, 53, 114);
+    color: white;
+    border: 1px inset rgb(236, 53, 114);
+}
+
+main {
+    width: 60%;
+    min-height: 80%;
+    background-color: rgb(241, 236, 237);
+    /* border: 1px solid gray; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.check {
+    float: left;
+}
+
+.btn {
+    /* background-color: rgb(233, 63, 134); */
+    background-color: white;
+    border: none;
+    color: rgb(233, 63, 134);
+    /* padding: 0.2rem 0.2rem; */
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* Darker background on mouse-over */
+
+.btn:hover {
+    background-color: rgb(222, 164, 212);
+}
+
+.text {
+    padding: 0.2rem;
+    width: 80%;
+    float: right;
+}
+
+.actions {
+    width: 40%;
+    display: flex;
+    gap: 0.2em;
+    justify-content: flex-end;
+}
