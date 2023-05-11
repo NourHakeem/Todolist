@@ -7,7 +7,7 @@ To use the Todolist application, follow these steps:
 # Clone the repository:
 
 
--- Copy code
+## Copy code
 git clone https://github.com/NourHakeem/Todolist.git
 Open the index.html file in your web browser.
 
